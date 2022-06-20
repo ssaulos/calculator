@@ -2,37 +2,45 @@
 
 
 body{
-    background-image: url("imagens/42611.jpg");
+    background-image: linear-gradient(to bottom,blue , white , rgb(84, 84, 194));
     background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #104573;
-    background-attachment: fixed;
-    
+    background-attachment: cover;
+}
+
+
+h1{
+    background-color: aqua;
+    width: 300px;
+    display: inline-block;
 }
 
 input{
     color:#003F75;
-    padding: 17px;
+    padding: 12px;
     outline: none;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Alfa Slab One', cursive;
-    border-radius: 25%;
+    
 }
 
 .num{
     width: 64px;
-    height: 70px;
+    height: 60px;
+    margin: 2px;
+    box-shadow: 0px 2px rgb(105, 4, 21);
+    border-radius: 4px;
 
 }
 
 .text{
     
-    width: 160px;
-    height:26px;
+    width: 180px;
+    height:16px;
     border-radius: 20px;
     letter-spacing: 5px;
     text-align: center;
@@ -40,9 +48,9 @@ input{
 }
 
 .text1{
-    width: 24px;
-    height: 25px;
-    border-radius: 22px;
+    width: 1em;
+    height: 6px;
+    border-radius: 7px;
     letter-spacing: 5px;
     text-align: center;
     margin-bottom: 12px;
@@ -55,42 +63,42 @@ input{
 
 .main{
     background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
-    height: 500px;
+    height: 350px;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 20px;
-    border: 2px solid white;
+    border: 5px solid rgba(197, 9, 9, 0.452);
     
 }
 
 .maincolor{
-    background-color: #5891b4;
+    background-color: #0a6eac00;
 
 }
 
 
 .blue{
-    background-color: #1A4C75;
+    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
     color: aliceblue;
 }
 
 .pin{
-    background-color: #1A4C75;
+    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
     color: aliceblue;
 }
 
 .gree{
-    background-color: #1A4C75;
+    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
     color: aliceblue;
 }
 
 
 .pur{
-    background-color: #1A4C75;
+    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
     color: aliceblue;
 }
 
 .ora{
-    background-color: #1A4C75;
+    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
     color: aliceblue;
 }
