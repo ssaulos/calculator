@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: linear-gradient(to bottom,blue , white , rgb(84, 84, 194));
+    background-image: linear-gradient(to bottom,#027373 , white ,#0D0D0D);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -14,13 +14,13 @@ body{
 
 
 h1{
-    background-color: aqua;
+    background-color: rgb(2, 2, 2);
     width: 300px;
     display: inline-block;
 }
 
 input{
-    color:#003F75;
+    color:#F2E7DC;
     padding: 12px;
     outline: none;
     font-size: 35px;
@@ -32,7 +32,7 @@ input{
     width: 64px;
     height: 60px;
     margin: 2px;
-    box-shadow: 0px 2px rgb(105, 4, 21);
+    box-shadow: 0px 2px #0D0D0D ;
     border-radius: 4px;
 
 }
@@ -62,12 +62,12 @@ input{
 
 
 .main{
-    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
+    background-image: linear-gradient(to bottom ,#0D0D0D ,#A9D9D0 ,#0D0D0D);
     height: 350px;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 18px;
     padding: 20px;
-    border: 5px solid rgba(197, 9, 9, 0.452);
+    border: 10px solid rgba(240, 239, 239, 0.452);
     
 }
 
@@ -78,27 +78,27 @@ input{
 
 
 .blue{
-    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
+    background-image: linear-gradient(to bottom ,#027373 ,#027373 ,#038C7F);
     color: aliceblue;
 }
 
 .pin{
-    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
+    background-image: linear-gradient(to bottom ,#027373 ,#027373 ,#038C7F);
     color: aliceblue;
 }
 
 .gree{
-    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
+    background-image: linear-gradient(to bottom ,#027373 ,#027373 ,#038C7F);
     color: aliceblue;
 }
 
 
 .pur{
-    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
+    background-image: linear-gradient(to bottom ,#027373 ,#027373 ,#038C7F);
     color: aliceblue;
 }
 
 .ora{
-    background-image: linear-gradient(to bottom ,#1B72BF ,#6CB5F4 ,#154C73);
+    background-image: linear-gradient(to bottom ,#027373 ,#027373 ,#038C7F);
     color: aliceblue;
 }
